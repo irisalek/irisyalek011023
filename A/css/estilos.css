@@ -1,0 +1,61 @@
+/* Estilos para el contenedor del botón */
+.boton-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para el botón */
+.boton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el contenedor de contenido */
+.contenido {
+    margin: 20px;
+   
+    text-align: center;
+    display: none;
+}
+
+/* Estilos para la imagen en el contenido */
+.contenido img {
+    max-width: 25%;
+    height: auto;
+}
+
+/* Estilos para el párrafo en el contenido */
+.contenido p {
+    margin: 10px 0;
+}
+
+.centered-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: lightblue;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(0, 32, 139); /* Cambia el color cuando el mouse pasa por encima */
+}
+
+.dos {
+    text-align: center;
+}

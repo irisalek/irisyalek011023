@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="inicio.css">
+    <title>1 mes</title>
+</head>
+
+<body>
+    <h1  align="center" style="color:rgb(255, 255, 255);" class="inicio">Página de Inicio</h1>
+    <p class="texto1">Bienvenido a la página de inicio amorcito, espero que te guste el regalo que hice con mucho amor, talvez no es el
+        más lindo de todos, pero intenté lo mejor para vos... </p>
+
+        <p class="texto1"> ¿Qué vamos a encontrar del otro lado? (>o<)
+        </p>
+        <p class="texto1"> 1. Cartita de amor ! 
+        </p>
+        <p class="texto1"> 2. Catálogo de regalitos ! </p>
+
+        <p class="texto1"> Preguntita seria antes de empezar.... ¿Me querés?</p>
+
+        <button id="movable-button" class="movable-button" onclick="moverBoton()">SI!!!</button>
+        
+
+
+        <style>
+            .movable-button {
+                position: absolute;
+                display: inline-block;
+            padding: 10px 20px;
+            background-color: lightblue;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            }
+        </style>
+         
+        <script>
+            function moverBoton() {
+                // Generar posiciones aleatorias para el botón dentro del área visible de la ventana.
+                const ventanaAncho = window.innerWidth - 50; // 100 es el ancho del botón
+                const ventanaAlto = window.innerHeight - 50; // 50 es la altura del botón
+                const nuevoX = Math.floor(Math.random() * ventanaAncho);
+                const nuevoY = Math.floor(Math.random() * ventanaAlto);
+    
+                // Aplicar las nuevas coordenadas al botón.
+                const boton = document.getElementById("movable-button");
+                boton.style.left = nuevoX + "px";
+                boton.style.top = nuevoY + "px";
+            }
+        </script>
+
+<style>
+    .boton {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: lightblue;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+    }
+</style>
+
+<a href="SEGUNDA.html" class="boton">No?!</a>
+
+
+
+
+
+ 
+</body>
+
+</html>

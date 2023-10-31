@@ -1,0 +1,95 @@
+.inicio{
+        font-family: Arial, sans-serif;
+        font-size: 36px;
+        color: #ffffff; /* Cambia el color a tu preferencia */
+        text-align: center;
+        text-transform: uppercase; /* Convierte el texto en mayúsculas */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra al texto */
+        margin: 20px 0; /* Añade espacio superior e inferior */
+        background-color:lightblue; /* Cambia el fondo a tu preferencia */
+        padding: 10px 20px; /* Agrega espacio interno alrededor del título */
+        border-radius: 10px; /* Redondea las esquinas */
+    
+      
+}
+
+.texto1 {
+    font-family: 'Helvetica', sans-serif; /* Cambia la fuente a tu preferencia */
+    font-size: 20px; /* Cambia el tamaño a tu preferencia */
+    color: #000; /* Cambia el color a tu preferencia */
+    text-align: center;
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    letter-spacing: 2px; /* Añade espacio entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra al texto */
+    margin: 20px; /* Añade espacio alrededor del texto */
+    background-color: #FFFFfff; /* Cambia el fondo a tu preferencia */
+    padding: 10px; /* Añade espacio interno alrededor del texto */
+    border-radius: 10px; /* Redondea las esquinas */
+  }
+  
+  .GIFHYUN {
+    text-align: center; /* Centra el contenido en el contenedor */
+  }
+  
+  .centrado {
+    display: block; /* Cambia la imagen de línea a bloque para poder centrarla */
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 25%; /* Ajusta el tamaño máximo al ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+  }
+
+  .texto2 {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a tu preferencia */
+    font-size: 25px; /* Cambia el tamaño del texto */
+    color: #336699; /* Cambia el color a tu preferencia */
+    line-height: 1.5; /* Ajusta el espaciado entre líneas */
+    letter-spacing: 1px; /* Añade espacio entre letras */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    margin: 10px; /* Añade espacio alrededor del texto */
+    border: 2px solid #336699; /* Agrega un borde alrededor del texto */
+    padding: 10px; /* Añade espacio interno alrededor del texto */
+    border-radius: 5px; /* Redondea las esquinas del borde */
+  }
+  
+  .regalos {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: #ffffff; /* Cambia el color a tu preferencia */
+    text-align: center;
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra al texto */
+    margin: 20px 0; /* Añade espacio superior e inferior */
+    background-color:lightblue; /* Cambia el fondo a tu preferencia */
+    padding: 10px 20px; /* Agrega espacio interno alrededor del título */
+    border-radius: 10px; /* Redondea las esquinas */
+
+  
+}
+
+.catalogo {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Estiliza cada elemento de la lista (cada imagen y descripción) */
+.catalogo li {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Estiliza las imágenes */
+.catalogo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estiliza las descripciones */
+.catalogo p {
+  margin: 10px 0;
+}
+
